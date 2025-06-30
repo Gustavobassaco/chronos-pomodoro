@@ -1,0 +1,73 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    // === Aparência ===
+    "files.eol": "\n",
+    // === Formatação e Lint ===
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    // === Validação ESLint ===
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+    ],
+    // === Ajustes diversos ===
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.largeFileOptimizations": false,
+    "editor.stickyScroll.enabled": false,
+    "jupyter.askForKernelRestart": false,
+    "settingsSync.ignoredSettings": [],
+    // ---------- Por linguagem ----------
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[xml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[svg]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // ---------- Dart / Flutter ----------
+    "[dart]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnType": true,
+      "editor.rulers": [
+        80
+      ],
+      "editor.selectionHighlight": false,
+      "editor.suggest.snippetsPreventQuickSuggestions": false,
+      "editor.suggestSelection": "first",
+      "editor.tabCompletion": "onlySnippets",
+      "editor.wordBasedSuggestions": "off"
+    },
+    "dart.showInspectorNotificationsForWidgetErrors": false,
+    // ---------- Python ----------
+    "[python]": {
+      "editor.formatOnType": true
+    }
+  }
+}
